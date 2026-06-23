@@ -10,7 +10,7 @@ export const navItems = [
 ];
 
 export const trustStats = [
-  { value: '2018', suffix: '年', label: '成立于镇江', note: '面向工业智能化与工程落地持续深耕' },
+  { value: '软硬一体', suffix: '', label: '全栈研发能力', note: '覆盖边缘硬件、工业软件、协议接入与云端协同' },
   { value: '高新', suffix: '技术企业', label: '科技企业属性', note: '具备研发创新与技术成果转化能力' },
   { value: '科技型', suffix: '中小企业', label: '创新型组织', note: '聚焦软硬件一体化与智能装备方向' },
   { value: 'IP', suffix: '积累', label: '知识产权基础', note: '拥有专利与软件著作权等技术资产' },
