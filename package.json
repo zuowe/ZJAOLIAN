@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "vite --host 0.0.0.0",
     "build": "vite build",
-    "preview": "vite preview --host 0.0.0.0"
+    "preview": "vite preview --host 0.0.0.0",
+    "deploy": "pnpm build && wrangler deploy"
   },
   "dependencies": {
     "@react-three/drei": "9.122.0",
@@ -20,6 +21,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
-    "vite": "6.4.3"
+    "vite": "6.4.3",
+    "wrangler": "4.103.0"
   }
 }
